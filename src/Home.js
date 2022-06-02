@@ -1,19 +1,17 @@
 import React from "react";
+import Common from "./Common";
+import web from "../src/images/bg1.svg";
 
 const Home = () => {
   return (
     <>
-      <section id="header" className="">
-        <div className="container-fluid nav_bg">
-          <div className="row">
-            <div className="col-10 mx-auto">
-              <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
-                <h1>Hello </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Common 
+      name="Grow Your Business With" 
+      subname="We are here to help you grow your business with the best of the best"
+      imgsrc={web} 
+      visit="/service" 
+      btname="Get Started"
+      />
     </>
   );
 };
