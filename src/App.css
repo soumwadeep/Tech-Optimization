@@ -14,6 +14,15 @@ body {
 {
   background-color: white;
 }
+.navbar-toggler,.navbar-toggler-icon
+{
+  border: none;
+}
+.navbar-toggler:hover
+{
+  background-color: #26f596;
+  transition: 0.5s;
+}
 .navbar-brand {
   font-weight: bold;
 }
