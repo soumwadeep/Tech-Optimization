@@ -23,19 +23,19 @@ const Contact = () => {
             </div>
             <div className="mb-3">
               <label for="name" className="form-label">Name:</label>
-              <input type="text" className="form-control" name="name"/>
+              <input type="text" className="form-control" name="name" required/>
             </div>
             <div className="mb-3">
               <label for="email" className="form-label">Email:</label>
-              <input type="email" className="form-control" name="email"/>
+              <input type="email" className="form-control" name="email" required/>
             </div>
             <div className="mb-3">
               <label for="mobile" className="form-label">Mobile No:</label>
-              <input type="tel" className="form-control" name="mobile"/>
+              <input type="tel" className="form-control" name="mobile" required/>
             </div>
             <div className="mb-3">
               <label for="message">Comments:</label>
-              <textarea className="form-control" name="message"></textarea>
+              <textarea className="form-control" name="message" required></textarea>
             </div>
             <button type="submit" className="btn_card">Send</button>
           </form>
