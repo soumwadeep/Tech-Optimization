@@ -10,12 +10,13 @@ body {
   box-sizing: border-box;
   font-family: 'Quantico', sans-serif;
 }
-
+.navbar
+{
+  background-color: white;
+}
 .navbar-brand {
   font-weight: bold;
 }
-
-.navbar-brand:hover,
 .navbar a:hover {
   color: #26f596 !important;
   text-transform: capitalize !important;
@@ -34,10 +35,12 @@ body {
   .navbar-brand {
     font-size: 1.5rem !important;
   }
-
+  .nav-item
+  {
+    text-align: center;
+  }
   .menu_active {
     font-weight: bold;
-    border-bottom: none;
   }
 }
 
@@ -52,7 +55,6 @@ body {
 strong {
   color: #26f596;
 }
-
 .btn_card {
   background-color: #26f596;
   color: white;
