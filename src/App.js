@@ -4,6 +4,7 @@ import About from './About'
 import Service from './Service'
 import Contact from './Contact'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import { Routes, Route , Navigate} from 'react-router-dom'
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/contact" element ={<Contact/>}/>
         <Route path="*" element={<Navigate to="/" replace />}/>
       </Routes>
+      <Footer/>
     </>
   )
 }

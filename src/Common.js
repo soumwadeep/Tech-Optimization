@@ -1,12 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import web from "../src/images/bg1.svg";
-
 const Common = (props) => {
   return (
     <>
       <section id="header" className="d-flex align-items-center">
-        <div className="container-fluid nav_bg">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
@@ -19,14 +17,14 @@ const Common = (props) => {
                     {props.subname}
                   </h2>
                   <div className="mt-3">
-                    <NavLink to="/service" className="btn-get-started">
+                    <NavLink to={props.visit} className="btn-get-started">
                     {props.btname}
                     </NavLink>
                   </div>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-img">
                   <img
-                    src={web}
+                    src={props.imgsrc}
                     className="img-fluid animated"
                     alt="home img"
                   />
