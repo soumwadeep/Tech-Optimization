@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="container contact_div">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
-          <form action="https://formsubmit.co/soumwadeep@gmail.com" method="POST" onSubmit={formSubmit}>
+          <form action="https://formsubmit.co/e827bd8fd2a95d7e7576547bb1aad862" method="POST" onSubmit={formSubmit}>
             <div>
               <input type="hidden" name="_subject" value="New Contact Form Submission On Tech Optimization!"/>
               <input type="hidden" name="_template" value="table"/>
