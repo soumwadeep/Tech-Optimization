@@ -3,7 +3,11 @@
 html {
   scroll-behavior: smooth;
 }
-
+.knowh1
+{
+  color: #26f596;
+  text-align: center;
+}
 body {
   margin: 0;
   padding: 0;
